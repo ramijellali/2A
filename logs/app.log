@@ -408,3 +408,5 @@
 [2025-09-01 19:36:33] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:143
 [2025-09-01 19:36:45] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:136
 [2025-09-01 19:36:45] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:143
+[2025-09-01 19:47:00] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 19:47:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
