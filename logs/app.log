@@ -1,0 +1,410 @@
+[2025-09-01 02:37:51] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:37:51] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:41:07] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:09] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:10] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:10] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:11] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:11] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:11] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:12] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:23] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:41:39] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:44:46] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:44:46] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:44:50] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:44:50] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:45:11] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:45:55] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:48:55] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:48:55] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:49:14] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:50:02] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:50:13] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:50:48] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:56:24] ERROR: Erreur PHP: session_start(): Session cannot be started after headers have already been sent dans C:\Users\ASUS TUF\enquetes-satisfaction\config\bootstrap.php:45
+[2025-09-01 02:57:55] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:57:55] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 02:58:08] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 02:58:22] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 03:05:58] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:05:58] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:00] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:00] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:14] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:14] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:14] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:16] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:16] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:16] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:32] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:32] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:32] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:40] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:40] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:40] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:06:54] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:06:54] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:07:01] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:07:01] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:52
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined array key "created_at" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:81
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\users\index.php:88
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:22
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:07:28] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:23
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:07:28] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:41
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:46
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Undefined variable $currentUser dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:07:28] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\backoffice\layout.php:59
+[2025-09-01 03:11:38] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:11:38] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:11:43] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:11:43] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:11:55] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:11:55] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 03:12:42] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:12:42] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 03:13:34] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:13:34] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 03:13:58] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 03:14:01] ERROR: Erreur dans le contrôleur: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enquetes_satisfaction.enquete_clients' doesn't exist
+[2025-09-01 16:00:05] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 16:00:05] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 16:54:10] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 16:54:10] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/errors/403.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 17:01:28] ERROR: Erreur dans le contrôleur: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.titre' in 'field list'
+[2025-09-01 17:07:09] ERROR: Erreur dans le contrôleur: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordre' in 'order clause'
+[2025-09-01 17:07:12] ERROR: Erreur dans le contrôleur: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordre' in 'order clause'
+[2025-09-01 17:10:41] ERROR: Erreur dans le contrôleur: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordre' in 'order clause'
+[2025-09-01 17:11:22] ERROR: Erreur dans le contrôleur: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordre' in 'order clause'
+[2025-09-01 17:13:25] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:25] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:25] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:25] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:25] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:25] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:37] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:49] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\client\dashboard.php:142
+[2025-09-01 17:13:56] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:189
+[2025-09-01 17:13:56] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 17:13:56] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 17:14:01] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: Undefined array key "date_envoi" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:219
+[2025-09-01 17:14:01] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 17:14:01] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 17:23:25] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-01 17:23:32] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-01 17:55:13] ERROR: Erreur PHP: session_start(): Session cannot be started after headers have already been sent dans C:\Users\ASUS TUF\enquetes-satisfaction\test_controller.php:10
+[2025-09-01 17:55:13] ERROR: Erreur PHP: Cannot modify header information - headers already sent by (output started at C:\Users\ASUS TUF\enquetes-satisfaction\config\bootstrap.php:1) dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:26
+[2025-09-01 18:11:27] ERROR: Erreur fatale: Maximum execution time of 120 seconds exceeded dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\BaseModel.php:54
+[2025-09-01 18:12:12] ERROR: Erreur dans le contrôleur: Erreur de connexion à la base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-09-01 18:12:19] ERROR: Erreur dans le contrôleur: Erreur de connexion à la base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-09-01 18:12:27] ERROR: Erreur dans le contrôleur: Erreur de connexion à la base de données : SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[2025-09-01 18:14:55] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:14:55] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:15:00] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:15:00] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:16:09] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/dashboard.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:16:09] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/dashboard.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:17:42] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:17:42] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:17:46] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/enquetes/index.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:17:46] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/enquetes/index.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:17:58] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:17:58] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:18:00] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/enquetes/index.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:18:00] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/agent/enquetes/index.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:18:07] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:18:07] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:20:10] ERROR: Erreur PHP: Undefined variable $csrf_token dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\enquetes\index.php:262
+[2025-09-01 18:20:10] ERROR: Erreur PHP: Undefined variable $csrf_token dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\enquetes\index.php:284
+[2025-09-01 18:20:19] ERROR: Erreur PHP: Undefined array key "agent_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:127
+[2025-09-01 18:20:19] ERROR: Erreur PHP: Undefined variable $csrf_token dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\enquetes\index.php:262
+[2025-09-01 18:20:19] ERROR: Erreur PHP: Undefined variable $csrf_token dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\enquetes\index.php:284
+[2025-09-01 18:30:12] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:30:12] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:30:35] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:540
+[2025-09-01 18:30:35] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:540
+[2025-09-01 18:30:35] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:540
+[2025-09-01 18:30:35] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:540
+[2025-09-01 18:30:35] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:540
+[2025-09-01 18:30:54] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:30:54] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:31:10] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:31:10] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:31:29] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:31:29] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 18:41:42] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:41:42] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:41:57] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-01 18:42:15] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-01 18:42:32] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:42:32] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:42:35] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:42:35] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/historique.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:56
+[2025-09-01 18:43:08] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:100
+[2025-09-01 18:47:23] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:47:23] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:47:23] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:47:37] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:47:37] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:47:37] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_nom" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:66
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:67
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:68
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:71
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:72
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:73
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_nom" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:66
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:67
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:68
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:71
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:72
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:73
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_nom" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:62
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:66
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:67
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:68
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:71
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:72
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:73
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: Undefined array key "campagne_statut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:51:24] ERROR: Erreur PHP: ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\index.php:74
+[2025-09-01 18:53:57] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:53:57] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:53:57] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\index.php:106
+[2025-09-01 18:55:56] ERROR: Erreur PHP: Undefined array key "titre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\view.php:278
+[2025-09-01 18:55:56] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\campagnes\view.php:278
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:03:38] ERROR: Erreur PHP: Undefined array key "ordre" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\index.php:95
+[2025-09-01 19:08:58] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AdminController.php:598
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: json_decode(): Passing null to parameter #1 ($json) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:167
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:11:57] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:165
+[2025-09-01 19:11:57] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:173
+[2025-09-01 19:11:57] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\index.php:175
+[2025-09-01 19:13:22] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:213
+[2025-09-01 19:13:22] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:218
+[2025-09-01 19:13:22] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:223
+[2025-09-01 19:13:22] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:224
+[2025-09-01 19:13:22] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:213
+[2025-09-01 19:13:22] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:218
+[2025-09-01 19:13:22] ERROR: Erreur PHP: substr(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:223
+[2025-09-01 19:13:22] ERROR: Erreur PHP: strlen(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\questions\view.php:224
+[2025-09-01 19:18:45] ERROR: Erreur PHP: Undefined array key "valeur" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\view.php:96
+[2025-09-01 19:18:45] ERROR: Erreur PHP: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\view.php:112
+[2025-09-01 19:18:45] ERROR: Erreur PHP: Function strftime() is deprecated dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\reponses\view.php:146
+[2025-09-01 19:24:22] ERROR: Erreur PHP: session_start(): Session cannot be started after headers have already been sent dans C:\Users\ASUS TUF\enquetes-satisfaction\debug_agent.php:19
+[2025-09-01 19:24:22] ERROR: Erreur PHP: Cannot modify header information - headers already sent by (output started at C:\Users\ASUS TUF\enquetes-satisfaction\config\bootstrap.php:1) dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:81
+[2025-09-01 19:29:05] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 19:29:05] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 19:36:33] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:136
+[2025-09-01 19:36:33] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:143
+[2025-09-01 19:36:45] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:136
+[2025-09-01 19:36:45] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:143
