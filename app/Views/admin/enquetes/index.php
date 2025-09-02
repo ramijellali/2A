@@ -113,6 +113,10 @@ $pageTitle = 'Gestion des enquêtes';
                                            class="btn btn-outline-info" title="Voir">
                                             <i class="fas fa-eye"></i>
                                         </a>
+                                        <a href="/admin/enquetes/assignations?enquete_id=<?= $enquete['id'] ?>" 
+                                           class="btn btn-outline-warning" title="Gérer les assignations">
+                                            <i class="fas fa-users"></i>
+                                        </a>
                                         <a href="?controller=Agent&action=viewEnquete&id=<?= $enquete['id'] ?>" 
                                            class="btn btn-outline-primary" title="Voir en tant qu'agent">
                                             <i class="fas fa-user-cog"></i>

@@ -410,3 +410,272 @@
 [2025-09-01 19:36:45] ERROR: Erreur PHP: Undefined array key "type_question" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Models\Question.php:143
 [2025-09-01 19:47:00] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
 [2025-09-01 19:47:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-01 23:07:11] ERROR: Erreur PHP: session_start(): Session cannot be started after headers have already been sent dans C:\Users\ASUS TUF\enquetes-satisfaction\config\bootstrap.php:45
+[2025-09-01 23:54:03] ERROR: Erreur PHP: include(C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php): Failed to open stream: No such file or directory dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 23:54:03] ERROR: Erreur PHP: include(): Failed opening 'C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers/../Views/client/stats.php' for inclusion (include_path='C:\xampp\php\PEAR') dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\BaseController.php:57
+[2025-09-01 23:54:33] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-02 00:01:26] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-02 00:04:56] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:04:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:05:36] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:648
+[2025-09-02 00:05:36] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:648
+[2025-09-02 00:05:36] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:648
+[2025-09-02 00:05:36] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:648
+[2025-09-02 00:05:36] ERROR: Erreur PHP: Undefined array key "client_id" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\AgentController.php:648
+[2025-09-02 00:06:20] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:06:20] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:19:45] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:19:45] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:18] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:23] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:24] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:26] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:32] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 00:20:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 00:21:53] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-02 00:22:21] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271
+[2025-09-02 00:23:58] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 00:23:58] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:08:56] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:08:56] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:104
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:131
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:179
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:201
+[2025-09-02 03:08:56] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:08:56] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:237
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:25:50] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:25:50] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:26:03] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:23
+[2025-09-02 03:26:03] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:23
+[2025-09-02 03:26:03] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:23
+[2025-09-02 03:26:03] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:23
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:39:24] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:39:24] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:39:27] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:39:27] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:99
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:126
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:174
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:196
+[2025-09-02 03:47:33] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:47:33] ERROR: Erreur PHP: foreach() argument must be of type array|object, null given dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\dashboard.php:232
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:03] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:157
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:160
+[2025-09-02 03:49:05] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\assignations\index.php:163
+[2025-09-02 03:49:22] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:22] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:27] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:27] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:37] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_debut" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:195
+[2025-09-02 03:49:43] ERROR: Erreur PHP: Undefined array key "date_fin" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\admin\enquetes\assignations.php:198
+[2025-09-02 03:50:11] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 03:50:11] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 03:50:35] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 03:50:35] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:07:00] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:07:00] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:25:37] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:25:37] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:25:38] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:25:38] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:29:08] ERROR: Erreur PHP: Undefined array key "enquetes" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:29:08] ERROR: Erreur PHP: Trying to access array offset on value of type null dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Views\agent\dashboard.php:178
+[2025-09-02 04:29:47] ERROR: Erreur PHP: Undefined array key "type" dans C:\Users\ASUS TUF\enquetes-satisfaction\app\Controllers\ClientController.php:271

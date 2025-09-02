@@ -26,6 +26,16 @@ class Application {
      * Parse l'URL pour extraire contrôleur et action
      */
     private function parseUrl(): void {
+        $path = $_SERVER['REQUEST_URI'] ?? '/';
+        $path = parse_url($path, PHP_URL_PATH);
+        $path = trim($path, '/');
+        
+        // Routage moderne pour les nouvelles routes
+        if ($this->handleModernRoutes($path)) {
+            return;
+        }
+        
+        // Routage legacy
         $this->controller = $_GET['controller'] ?? DEFAULT_CONTROLLER;
         $this->action = $_GET['action'] ?? DEFAULT_ACTION;
         $this->params = array_diff_key($_GET, array_flip(['controller', 'action']));
@@ -35,6 +45,27 @@ class Application {
             $this->controller = DEFAULT_CONTROLLER;
             $this->action = DEFAULT_ACTION;
         }
+    }
+    
+    /**
+     * Gère les routes modernes
+     */
+    private function handleModernRoutes(string $path): bool {
+        $routes = [
+            'admin/assignations' => ['controller' => 'Admin', 'action' => 'toutesAssignations'],
+            'admin/enquetes/assignations' => ['controller' => 'Admin', 'action' => 'assignations'],
+            'admin/enquetes/assigner' => ['controller' => 'Admin', 'action' => 'assignerEnquete'],
+            'admin/enquetes/retirer-assignation' => ['controller' => 'Admin', 'action' => 'retirerAssignation'],
+        ];
+        
+        if (isset($routes[$path])) {
+            $this->controller = $routes[$path]['controller'];
+            $this->action = $routes[$path]['action'];
+            $this->params = $_GET;
+            return true;
+        }
+        
+        return false;
     }
     
     /**

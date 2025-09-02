@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relations entre les Entités - Système d'Enquêtes de Satisfaction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .entity {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .entity h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        .entity-content {
+            font-size: 14px;
+        }
+        .relations {
+            background: #ecf0f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        .relation-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+            border-left: 3px solid #e74c3c;
+        }
+        .diagram {
+            text-align: center;
+            margin: 30px 0;
+            font-family: monospace;
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .code {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relations entre les Entités - Système d'Enquêtes de Satisfaction</h1>
+        
+        <div class="highlight">
+            <strong>Vue d'ensemble :</strong> Ce système gère des enquêtes de satisfaction avec 5 entités principales liées entre elles par des clés étrangères.
+        </div>
+
+        <h2>🏗️ Structure des Entités</h2>
+        
+        <div class="entity">
+            <h3>👥 UTILISATEURS</h3>
+            <div class="entity-content">
+                <strong>Rôles :</strong> admin, agent, client<br>
+                <strong>Champs clés :</strong> id (PK), nom, prenom, email, role, statut<br>
+                <strong>Fonction :</strong> Gère tous les acteurs du système
+            </div>
+        </div>
+
+        <div class="entity">
+            <h3>🎯 CAMPAGNES</h3>
+            <div class="entity-content">
+                <strong>Relations :</strong> created_by → utilisateurs(id)<br>
+                <strong>Champs clés :</strong> id (PK), nom, description, date_debut, date_fin, statut<br>
+                <strong>Fonction :</strong> Organise les enquêtes par période/thématique
+            </div>
+        </div>
+
+        <div class="entity">
+            <h3>📋 ENQUETES</h3>
+            <div class="entity-content">
+                <strong>Relations :</strong> campagne_id → campagnes(id), created_by → utilisateurs(id)<br>
+                <strong>Champs clés :</strong> id (PK), titre, description, statut<br>
+                <strong>Fonction :</strong> Contient les questionnaires spécifiques
+            </div>
+        </div>
+
+        <div class="entity">
+            <h3>❓ QUESTIONS</h3>
+            <div class="entity-content">
+                <strong>Relations :</strong> enquete_id → enquetes(id)<br>
+                <strong>Champs clés :</strong> id (PK), texte, type_question, options_json, ordre_affichage<br>
+                <strong>Types :</strong> texte_libre, choix_multiple, notation, oui_non
+            </div>
+        </div>
+
+        <div class="entity">
+            <h3>💬 REPONSES</h3>
+            <div class="entity-content">
+                <strong>Relations :</strong> question_id → questions(id), utilisateur_id → utilisateurs(id)<br>
+                <strong>Champs clés :</strong> id (PK), reponse_texte, reponse_numerique<br>
+                <strong>Contrainte :</strong> Une seule réponse par utilisateur/question
+            </div>
+        </div>
+
+        <h2>🔗 Diagramme des Relations</h2>
+        <div class="diagram">
+<pre>
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   UTILISATEURS  │     │   CAMPAGNES     │     │    ENQUETES     │
+│                 │     │                 │     │                 │
+│ id (PK)         │◄────┤ created_by (FK) │◄────┤ campagne_id(FK) │
+│ nom             │     │ id (PK)         │     │ created_by (FK) │◄─┐
+│ prenom          │     │ nom             │     │ id (PK)         │  │
+│ email           │     │ description     │     │ titre           │  │
+│ role            │     │ date_debut      │     │ description     │  │
+│ statut          │     │ date_fin        │     │ statut          │  │
+└─────────────────┘     │ statut          │     └─────────────────┘  │
+         ▲               └─────────────────┘              │          │
+         │                                                │          │
+         │                                                ▼          │
+         │               ┌─────────────────┐     ┌─────────────────┐  │
+         │               │   QUESTIONS     │     │    REPONSES     │  │
+         │               │                 │     │                 │  │
+         │               │ enquete_id (FK) │◄────┤ question_id(FK) │  │
+         │               │ id (PK)         │     │ utilisateur_id  │──┘
+         │               │ texte           │     │ id (PK)         │
+         │               │ type_question   │     │ reponse_texte   │
+         │               │ options_json    │     │ reponse_numerique│
+         │               │ obligatoire     │     │ date_reponse    │
+         │               │ ordre_affichage │     └─────────────────┘
+         │               └─────────────────┘              ▲
+         └────────────────────────────────────────────────┘
+
+Légende:
+PK = Clé Primaire    FK = Clé Étrangère    ◄── = Relation 1:N
+</pre>
+        </div>
+
+        <h2>📊 Types de Relations</h2>
+        
+        <div class="relations">
+            <h3>Relations One-to-Many (1:N)</h3>
+            
+            <div class="relation-item">
+                <strong>UTILISATEURS → CAMPAGNES</strong><br>
+                Un utilisateur (admin/agent) peut créer plusieurs campagnes<br>
+                <div class="code">created_by → utilisateurs(id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>UTILISATEURS → ENQUETES</strong><br>
+                Un utilisateur (agent) peut créer plusieurs enquêtes<br>
+                <div class="code">created_by → utilisateurs(id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>CAMPAGNES → ENQUETES</strong><br>
+                Une campagne peut contenir plusieurs enquêtes<br>
+                <div class="code">campagne_id → campagnes(id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>ENQUETES → QUESTIONS</strong><br>
+                Une enquête peut avoir plusieurs questions<br>
+                <div class="code">enquete_id → enquetes(id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>QUESTIONS → REPONSES</strong><br>
+                Une question peut avoir plusieurs réponses (de différents clients)<br>
+                <div class="code">question_id → questions(id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>UTILISATEURS → REPONSES</strong><br>
+                Un utilisateur (client) peut donner plusieurs réponses<br>
+                <div class="code">utilisateur_id → utilisateurs(id)</div>
+            </div>
+        </div>
+
+        <h2>🎯 Contraintes d'Intégrité</h2>
+        
+        <div class="relations">
+            <h3>Contraintes Importantes</h3>
+            
+            <div class="relation-item">
+                <strong>Unicité Réponse :</strong><br>
+                Un client ne peut répondre qu'une seule fois à une question<br>
+                <div class="code">UNIQUE KEY unique_user_question (utilisateur_id, question_id)</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>Suppression en Cascade :</strong><br>
+                • Supprimer une campagne → supprime ses enquêtes<br>
+                • Supprimer une enquête → supprime ses questions<br>
+                • Supprimer une question → supprime ses réponses<br>
+                <div class="code">ON DELETE CASCADE</div>
+            </div>
+            
+            <div class="relation-item">
+                <strong>Types de Questions :</strong><br>
+                texte_libre, choix_multiple, notation, oui_non<br>
+                <div class="code">ENUM('texte_libre', 'choix_multiple', 'notation', 'oui_non')</div>
+            </div>
+        </div>
+
+        <h2>🔄 Flux de Données</h2>
+        
+        <div class="highlight">
+            <h3>Processus Typique :</h3>
+            <ol>
+                <li><strong>Admin</strong> crée une <strong>CAMPAGNE</strong></li>
+                <li><strong>Agent</strong> crée des <strong>ENQUETES</strong> dans la campagne</li>
+                <li><strong>Agent</strong> ajoute des <strong>QUESTIONS</strong> aux enquêtes</li>
+                <li><strong>Clients</strong> donnent des <strong>REPONSES</strong> aux questions</li>
+                <li><strong>Admin/Agent</strong> analysent les résultats</li>
+            </ol>
+        </div>
+
+        <h2>📈 Requêtes Complexes Courantes</h2>
+        
+        <div class="relations">
+            <div class="relation-item">
+                <strong>Statistiques par Enquête :</strong><br>
+                JOIN enquetes → questions → reponses
+            </div>
+            
+            <div class="relation-item">
+                <strong>Réponses d'un Client :</strong><br>
+                JOIN utilisateurs → reponses → questions → enquetes
+            </div>
+            
+            <div class="relation-item">
+                <strong>Performance des Campagnes :</strong><br>
+                JOIN campagnes → enquetes → questions → reponses
+            </div>
+        </div>
+    </div>
+</body>
+</html>

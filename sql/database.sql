@@ -83,6 +83,24 @@ CREATE TABLE IF NOT EXISTS reponses (
     UNIQUE KEY unique_user_question (utilisateur_id, question_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Table de liaison enquêtes-clients (pour l'assignation d'enquêtes)
+CREATE TABLE IF NOT EXISTS enquete_clients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    enquete_id INT NOT NULL,
+    client_id INT NOT NULL,
+    statut ENUM('envoye', 'en_cours', 'complete', 'expire') NOT NULL DEFAULT 'envoye',
+    date_envoi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    date_debut TIMESTAMP NULL,
+    date_fin TIMESTAMP NULL,
+    FOREIGN KEY (enquete_id) REFERENCES enquetes(id) ON DELETE CASCADE,
+    FOREIGN KEY (client_id) REFERENCES utilisateurs(id) ON DELETE CASCADE,
+    INDEX idx_enquete (enquete_id),
+    INDEX idx_client (client_id),
+    INDEX idx_statut (statut),
+    INDEX idx_date_envoi (date_envoi),
+    UNIQUE KEY unique_enquete_client (enquete_id, client_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 -- Insertion des données de démonstration
 -- ====================================
 
@@ -125,3 +143,12 @@ INSERT INTO reponses (question_id, utilisateur_id, reponse_numerique, reponse_te
 (2, 4, 1, NULL),
 (5, 4, 4, NULL),
 (6, 4, 1, NULL);
+
+-- Assignations d'enquêtes aux clients
+INSERT INTO enquete_clients (enquete_id, client_id, statut, date_debut, date_fin) VALUES
+(1, 3, 'complete', '2025-01-15 10:00:00', '2025-01-15 10:30:00'),
+(2, 3, 'en_cours', '2025-01-20 14:00:00', NULL),
+(3, 3, 'envoye', NULL, NULL),
+(1, 4, 'complete', '2025-01-16 09:00:00', '2025-01-16 09:45:00'),
+(2, 4, 'envoye', NULL, NULL),
+(3, 4, 'envoye', NULL, NULL);

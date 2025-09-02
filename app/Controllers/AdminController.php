@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Contrôleur Admin
  * Gère les fonctionnalités d'administration
@@ -10,6 +10,7 @@ require_once __DIR__ . '/../Models/Campagne.php';
 require_once __DIR__ . '/../Models/Enquete.php';
 require_once __DIR__ . '/../Models/Question.php';
 require_once __DIR__ . '/../Models/Reponse.php';
+require_once __DIR__ . '/../Models/EnqueteClient.php';
 
 class AdminController extends BaseController {
     private $utilisateurModel;
@@ -17,6 +18,7 @@ class AdminController extends BaseController {
     private $enqueteModel;
     private $questionModel;
     private $reponseModel;
+    private $enqueteClientModel;
     
     public function __construct() {
         parent::__construct();
@@ -26,6 +28,7 @@ class AdminController extends BaseController {
         $this->enqueteModel = new Enquete();
         $this->questionModel = new Question();
         $this->reponseModel = new Reponse();
+        $this->enqueteClientModel = new EnqueteClient();
     }
     
     /**
@@ -722,5 +725,384 @@ class AdminController extends BaseController {
             $this->flash('error', 'Erreur lors du chargement de la réponse : ' . $e->getMessage());
             $this->redirect('?controller=Admin&action=reponses');
         }
+    }
+    
+    // ===========================
+    // MÉTHODES CRUD MANQUANTES
+    // ===========================
+    
+    /**
+     * Formulaire d'édition d'enquête
+     */
+    public function editEnquete(): void {
+        $id = (int)($_GET['id'] ?? 0);
+        
+        if (!$id) {
+            $this->flash('error', 'ID d\'enquête invalide');
+            $this->redirect('?controller=Admin&action=enquetes');
+            return;
+        }
+        
+        try {
+            $enquete = $this->enqueteModel->findById($id);
+            if (!$enquete) {
+                $this->flash('error', 'Enquête non trouvée');
+                $this->redirect('?controller=Admin&action=enquetes');
+                return;
+            }
+            
+            $campagnes = $this->campagneModel->findAll();
+            $agents = $this->utilisateurModel->findWhere('role', 'agent');
+            
+            $errors = $_SESSION['enquete_errors'] ?? [];
+            $oldData = $_SESSION['old_data'] ?? $enquete;
+            unset($_SESSION['enquete_errors'], $_SESSION['old_data']);
+            
+            $this->view('admin/enquetes/edit', [
+                'enquete' => $enquete,
+                'campagnes' => $campagnes,
+                'agents' => $agents,
+                'errors' => $errors,
+                'old_data' => $oldData,
+                'csrf_token' => $this->generateCSRF()
+            ]);
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors du chargement de l\'enquête : ' . $e->getMessage());
+            $this->redirect('?controller=Admin&action=enquetes');
+        }
+    }
+    
+    /**
+     * Formulaire de création d'enquête
+     */
+    public function createEnquete(): void {
+        try {
+            $campagnes = $this->campagneModel->findAll();
+            $agents = $this->utilisateurModel->findWhere('role', 'agent');
+            
+            $errors = $_SESSION['enquete_errors'] ?? [];
+            $oldData = $_SESSION['old_data'] ?? [];
+            unset($_SESSION['enquete_errors'], $_SESSION['old_data']);
+            
+            $this->view('admin/enquetes/create', [
+                'campagnes' => $campagnes,
+                'agents' => $agents,
+                'errors' => $errors,
+                'old_data' => $oldData,
+                'csrf_token' => $this->generateCSRF()
+            ]);
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors du chargement du formulaire : ' . $e->getMessage());
+            $this->redirect('?controller=Admin&action=enquetes');
+        }
+    }
+    
+    /**
+     * Sauvegarder une nouvelle enquête
+     */
+    public function storeEnquete(): void {
+        if (!$this->validateCSRF()) {
+            $this->flash('error', 'Token de sécurité invalide');
+            $this->redirect('?controller=Admin&action=createEnquete');
+            return;
+        }
+        
+        $data = $this->sanitize($_POST);
+        unset($data['csrf_token']);
+        
+        $errors = $this->validateEnquete($data);
+        
+        if (!empty($errors)) {
+            $_SESSION['enquete_errors'] = $errors;
+            $_SESSION['old_data'] = $data;
+            $this->redirect('?controller=Admin&action=createEnquete');
+            return;
+        }
+        
+        try {
+            $id = $this->enqueteModel->create($data);
+            
+            if ($id) {
+                $this->flash('success', 'Enquête créée avec succès');
+                $this->redirect('?controller=Admin&action=enquetes');
+            } else {
+                $this->flash('error', 'Erreur lors de la création de l\'enquête');
+                $this->redirect('?controller=Admin&action=createEnquete');
+            }
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la création : ' . $e->getMessage());
+            $this->redirect('?controller=Admin&action=createEnquete');
+        }
+    }
+    
+    /**
+     * Mettre à jour une enquête
+     */
+    public function updateEnquete(): void {
+        $id = (int)($_POST['id'] ?? 0);
+        
+        if (!$this->validateCSRF()) {
+            $this->flash('error', 'Token de sécurité invalide');
+            $this->redirect('?controller=Admin&action=editEnquete&id=' . $id);
+            return;
+        }
+        
+        $data = $this->sanitize($_POST);
+        unset($data['csrf_token'], $data['id']);
+        
+        $errors = $this->validateEnquete($data);
+        
+        if (!empty($errors)) {
+            $_SESSION['enquete_errors'] = $errors;
+            $_SESSION['old_data'] = $data;
+            $this->redirect('?controller=Admin&action=editEnquete&id=' . $id);
+            return;
+        }
+        
+        try {
+            $result = $this->enqueteModel->update($id, $data);
+            if ($result) {
+                $this->flash('success', 'Enquête mise à jour avec succès');
+                $this->redirect('?controller=Admin&action=enquetes');
+            } else {
+                $this->flash('error', 'Erreur lors de la mise à jour');
+                $this->redirect('?controller=Admin&action=editEnquete&id=' . $id);
+            }
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la mise à jour : ' . $e->getMessage());
+            $this->redirect('?controller=Admin&action=editEnquete&id=' . $id);
+        }
+    }
+    
+    /**
+     * Supprimer une enquête
+     */
+    public function deleteEnquete(): void {
+        $id = (int)($_POST['id'] ?? 0);
+        
+        if (!$this->validateCSRF()) {
+            $this->flash('error', 'Token de sécurité invalide');
+            $this->redirect('?controller=Admin&action=enquetes');
+            return;
+        }
+        
+        try {
+            $enquete = $this->enqueteModel->findById($id);
+            if (!$enquete) {
+                $this->flash('error', 'Enquête non trouvée');
+                $this->redirect('?controller=Admin&action=enquetes');
+                return;
+            }
+            
+            $result = $this->enqueteModel->delete($id);
+            if ($result) {
+                $this->flash('success', 'Enquête supprimée avec succès');
+            } else {
+                $this->flash('error', 'Erreur lors de la suppression');
+            }
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la suppression : ' . $e->getMessage());
+        }
+        
+        $this->redirect('?controller=Admin&action=enquetes');
+    }
+    
+    /**
+     * Supprimer une question
+     */
+    public function deleteQuestion(): void {
+        $id = (int)($_POST['id'] ?? 0);
+        
+        if (!$this->validateCSRF()) {
+            $this->flash('error', 'Token de sécurité invalide');
+            $this->redirect('?controller=Admin&action=questions');
+            return;
+        }
+        
+        try {
+            $question = $this->questionModel->findById($id);
+            if (!$question) {
+                $this->flash('error', 'Question non trouvée');
+                $this->redirect('?controller=Admin&action=questions');
+                return;
+            }
+            
+            $result = $this->questionModel->delete($id);
+            if ($result) {
+                $this->flash('success', 'Question supprimée avec succès');
+            } else {
+                $this->flash('error', 'Erreur lors de la suppression');
+            }
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la suppression : ' . $e->getMessage());
+        }
+        
+        $this->redirect('?controller=Admin&action=questions');
+    }
+    
+    /**
+     * Supprimer une réponse
+     */
+    public function deleteReponse(): void {
+        $id = (int)($_POST['id'] ?? 0);
+        
+        if (!$this->validateCSRF()) {
+            $this->flash('error', 'Token de sécurité invalide');
+            $this->redirect('?controller=Admin&action=reponses');
+            return;
+        }
+        
+        try {
+            $reponse = $this->reponseModel->findById($id);
+            if (!$reponse) {
+                $this->flash('error', 'Réponse non trouvée');
+                $this->redirect('?controller=Admin&action=reponses');
+                return;
+            }
+            
+            $result = $this->reponseModel->delete($id);
+            if ($result) {
+                $this->flash('success', 'Réponse supprimée avec succès');
+            } else {
+                $this->flash('error', 'Erreur lors de la suppression');
+            }
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la suppression : ' . $e->getMessage());
+        }
+        
+        $this->redirect('?controller=Admin&action=reponses');
+    }
+    
+    /**
+     * Valider les données d'une enquête
+     */
+    private function validateEnquete(array $data): array {
+        $errors = [];
+        
+        if (empty($data['titre'])) {
+            $errors['titre'] = 'Le titre de l\'enquête est obligatoire';
+        }
+        
+        if (empty($data['campagne_id'])) {
+            $errors['campagne_id'] = 'La campagne est obligatoire';
+        }
+        
+        if (empty($data['created_by'])) {
+            $errors['created_by'] = 'L\'agent responsable est obligatoire';
+        }
+        
+        if (empty($data['statut'])) {
+            $data['statut'] = 'brouillon';
+        }
+        
+        return $errors;
+    }
+    
+    /**
+     * Gestion des assignations d'enquêtes
+     */
+    
+    /**
+     * Afficher les assignations d'une enquête
+     */
+    public function assignations(): void {
+        $enqueteId = (int)($_GET['enquete_id'] ?? 0);
+        
+        if (!$enqueteId) {
+            $this->flash('error', 'ID d\'enquête invalide');
+            $this->redirect('/admin/enquetes');
+            return;
+        }
+        
+        $enquete = $this->enqueteModel->findById($enqueteId);
+        if (!$enquete) {
+            $this->flash('error', 'Enquête non trouvée');
+            $this->redirect('/admin/enquetes');
+            return;
+        }
+        
+        $assignations = $this->enqueteClientModel->getClientsEnquete($enqueteId);
+        $clients = $this->utilisateurModel->findWhere('role', 'client');
+        $stats = $this->enqueteClientModel->getStatsEnquete($enqueteId);
+        
+        $this->view('admin/enquetes/assignations', [
+            'enquete' => $enquete,
+            'assignations' => $assignations,
+            'clients' => $clients,
+            'stats' => $stats,
+            'flash_messages' => $this->getFlashMessages()
+        ]);
+    }
+    
+    /**
+     * Assigner une enquête à des clients
+     */
+    public function assignerEnquete(): void {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            $this->redirect('/admin/enquetes');
+            return;
+        }
+        
+        $this->validateCSRF();
+        
+        $enqueteId = (int)($_POST['enquete_id'] ?? 0);
+        $clientIds = $_POST['client_ids'] ?? [];
+        
+        if (!$enqueteId || empty($clientIds)) {
+            $this->flash('error', 'Données invalides');
+            $this->redirect('/admin/enquetes/assignations?enquete_id=' . $enqueteId);
+            return;
+        }
+        
+        try {
+            $results = $this->enqueteClientModel->assignerEnqueteMultiple($enqueteId, $clientIds);
+            $this->flash('success', count($results) . ' client(s) assigné(s) avec succès');
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de l\'assignation : ' . $e->getMessage());
+        }
+        
+        $this->redirect('/admin/enquetes/assignations?enquete_id=' . $enqueteId);
+    }
+    
+    /**
+     * Retirer une assignation
+     */
+    public function retirerAssignation(): void {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            $this->redirect('/admin/enquetes');
+            return;
+        }
+        
+        $this->validateCSRF();
+        
+        $enqueteId = (int)($_POST['enquete_id'] ?? 0);
+        $clientId = (int)($_POST['client_id'] ?? 0);
+        
+        if (!$enqueteId || !$clientId) {
+            $this->flash('error', 'Données invalides');
+            $this->redirect('/admin/enquetes');
+            return;
+        }
+        
+        try {
+            $this->enqueteClientModel->retirerEnquete($enqueteId, $clientId);
+            $this->flash('success', 'Assignation supprimée avec succès');
+        } catch (Exception $e) {
+            $this->flash('error', 'Erreur lors de la suppression : ' . $e->getMessage());
+        }
+        
+        $this->redirect('/admin/enquetes/assignations?enquete_id=' . $enqueteId);
+    }
+    
+    /**
+     * Voir toutes les assignations
+     */
+    public function toutesAssignations(): void {
+        $assignations = $this->enqueteClientModel->getAllWithDetails();
+        
+        $this->view('admin/assignations/index', [
+            'assignations' => $assignations,
+            'flash_messages' => $this->getFlashMessages()
+        ]);
     }
 }

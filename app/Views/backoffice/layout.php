@@ -54,6 +54,11 @@
                                 <i class="fas fa-bullhorn"></i> Campagnes
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/assignations">
+                                <i class="fas fa-share-alt"></i> Assignations
+                            </a>
+                        </li>
                         <?php endif; ?>
                         
                         <?php if (in_array($currentUser['role'] ?? '', ['admin', 'agent'])): ?>
@@ -95,7 +100,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/backoffice.js"></script>
+    <script src="js/validation.js?v=<?= time() ?>"></script>
+    <script src="js/backoffice.js?v=<?= time() ?>"></script>
 </body>
 </html>

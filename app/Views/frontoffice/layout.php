@@ -66,7 +66,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/frontoffice.js"></script>
+    <script src="js/validation.js?v=<?= time() ?>"></script>
+    <script src="js/frontoffice.js?v=<?= time() ?>"></script>
 </body>
 </html>
